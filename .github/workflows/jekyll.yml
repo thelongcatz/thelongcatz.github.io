@@ -5,7 +5,8 @@ name: Deploy Jekyll site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: [master] # You can change this to a specific branch (without the `$`)
+    branches:
+      - master # You can change this to a specific branch (without the `$`)
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,6 +45,7 @@ jobs:
         # Outputs to the './_site' directory by default
         # Build twice for tag updates, see https://stackoverflow.com/a/53024798
         run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
