@@ -45,6 +45,7 @@ jobs:
         # Outputs to the './_site' directory by default
         # Build twice for tag updates, see https://stackoverflow.com/a/53024798
         run: |
+          mkdir -p _featured_tags feeds
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
