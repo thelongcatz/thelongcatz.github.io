@@ -18,7 +18,7 @@ def generate_tag_file(tag)
         file << "---\nlayout: list\ntag-name: #{tag}\n---\n"
     end
     # generate feed file
-    File.open("feeds/#{tag}.xml", "wb") do |file|
+    File.open("feeds-by-tag/#{tag}.xml", "wb") do |file|
         file << "---\nlayout: feeds\ntag-name: #{tag}\n---\n"
     end
 end

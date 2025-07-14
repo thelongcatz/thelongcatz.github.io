@@ -1,12 +1,12 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# Workflow for building and deploying a Jekyll site to GitHub Pages
 # Modified from https://hydejack.com/docs/deploy/
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes to the main branch
   push:
     branches:
-      - master # You can change this to a specific branch (without the `$`)
+      - master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@a4effe49ee8ee5b8b5091268c473a4628afb5651 # v1.245.0
         with:
-          ruby-version: '3.4' # Not needed with a .ruby-version file
+          ruby-version: '3.4' # Should be at least the version in .ruby-version
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
@@ -45,7 +45,7 @@ jobs:
         # Outputs to the './_site' directory by default
         # Build twice for tag updates, see https://stackoverflow.com/a/53024798
         run: |
-          mkdir -p _featured_tags feeds
+          mkdir _featured_tags feeds-by-tag
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
