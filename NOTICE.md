@@ -8,6 +8,12 @@ sitemap: false
 * this list will be replaced by the toc
 {:toc .large-only}
 
+Unless otherwise stated, the content of this blog shall be licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](/licences/CC-BY-SA-4.0).
+
+This blog is built upon the Jekyll template [`hydejack`](https://github.com/hydecorp/hydejack), which is licensed under the GPLv3 licence below (beware the spelling difference across the Atlantic, sorry not sorry):
+
+---
+
 Copyright (c) 2020 Florian Klampfer <https://qwtel.com/>
 
 This program is free software: you can redistribute it and/or modify
@@ -281,10 +287,10 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-[MIT]: licenses/MIT.md
-[GPL-3.0]: licenses/GPL-3.0.md
-[Apache-2.0]: licenses/Apache-2.0.md
-[W3C-20150513]: licenses/W3C-20150513.md
+[MIT]: /licences/MIT
+[GPL-3.0]: /licences/GPL-3.0
+[Apache-2.0]: /licences/Apache-2.0
+[W3C-20150513]: /licences/W3C-20150513
 [CC-BY-SA-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [CC-BY-SA-3.0]: https://creativecommons.org/licenses/by-sa/3.0/
 [CC0-1.0]: https://creativecommons.org/publicdomain/zero/1.0/deed.en

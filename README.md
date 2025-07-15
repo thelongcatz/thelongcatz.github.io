@@ -1,20 +1,12 @@
-# Hydejack Starter Kit
+# The Long Cat's Blog
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![GPLv3][https://img.shields.io/badge/Licence-GPLv3-lightgrey.svg]][https://www.gnu.org/licenses/gpl-3.0.html]
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+## Licence
+Unless otherwise stated, the content of this blog shall be licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
-
-[^1]: Requires Bundler. Install with `gem install bundler`.
-
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/Licence-CC%20BY--SA%204.0-lightgrey.svg

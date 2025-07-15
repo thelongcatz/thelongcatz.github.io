@@ -1,3 +1,7 @@
+---
+redirect_from: /licenses/MIT/
+---
+
 # MIT License
 
 Copyright (c) \<YEAR\> \<COPYRIGHT HOLDER\>

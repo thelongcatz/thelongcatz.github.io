@@ -1,4 +1,12 @@
+---
+redirect_from: /licenses/Apache-2.0/
+---
+
+* this list will be replaced by the toc
+{:toc .large-only}
+
 # Apache License
+{:.no_toc}
 
 Version 2.0, January 2004
 
